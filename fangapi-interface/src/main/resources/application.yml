@@ -1,0 +1,12 @@
+server:
+  port: 8123
+  servlet:
+    context-path: /api/name
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+fangapi:
+  client:
+    access-key: fangpi
+    secret-key: abcdefgh
